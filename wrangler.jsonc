@@ -16,8 +16,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "admin-db",
-      "database_id": "4370b6f1-9583-449f-a9fb-8f15c50ede2d"
+      "database_name": "saas-admin-template-lab-admin-db",
+      "database_id": "390a5520-2c86-4151-a7dc-11a17063fffa"
     }
   ],
   "workflows": [
