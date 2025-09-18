@@ -58,10 +58,16 @@ _An API token is required to authenticate requests to the API. You should genera
 3. Create a [D1 database](https://developers.cloudflare.com/d1/get-started/) with the name "admin-db":
 
 ```bash
-npx wrangler d1 create admin-db
+npx wrangler d1 create saas-admin-template-lab-admin-db
 ```
 
 ...and update the `database_id` field in `wrangler.json` with the new database ID.
+
+If needed, you can list your databases and their IDs like this:
+
+```bash
+npx wrangler d1 list
+```
 
 4. Run the database migrations locally:
 
